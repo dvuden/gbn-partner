@@ -1,0 +1,21 @@
+
+
+Probleem:
+=====================
+bij het versturen van een request wordt deze direct gecanceled.
+In chrome is de status 'canceled', en de initiator is '(unknown)'.
+
+Oplossing
+=======================
+Het formulier bevat een button met "type='button'", en een functie om de data te versturen.
+In dit geval de "type='button'" weggehaald, en alleen de functie laten staan.
+
+Bron: 
+gegoogled op: xhr request cancelled
+https://stackoverflow.com/questions/7577275/jquery-ajax-requests-are-getting-cancelled-without-being-sent
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+

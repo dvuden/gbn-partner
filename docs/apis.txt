@@ -1,0 +1,37 @@
+
+
+https://www.kvk.nl/producten-bestellen/koppeling-handelsregister/kvk-api/
+
+https://developers.kvk.nl/images/KVK_APIs_Manual_test_v1.2.pdf
+
+
+Test set:
+• 69599084 - Eenmanszaak
+• 90004841 - Eenmanszaak
+• 68727720 - NV
+• 90004760 - NV
+• 68750110 - BV
+• 90001354 - BV
+• 69599068 - Stichting
+• 90000102 - Stichting
+• 69599076 - VoF
+• 90005368 - VoF
+• 90002636 - Coöperatie
+• 90001532 - Kerkgenootschap
+• 90001966 - Onderlinge Waarborg Maatschappij
+• 90003179 - Vereniging
+• 90000749 - Vereniging van Eigenaars
+• 90001745 - Maatschap
+• 90003942 - Commanditaire Vennootschap
+• 90002148 - Overige Privaatrechtelijke Rechtspersoon
+By adding search terms in the parameter fields specified in the swagger user interface
+you can create your own search query and examine the kind of responses you
+can expect from our API’s. By clicking on the Query tab you can see what an KVK
+Handelsregister Search or Profile request would look like with the chosen search
+parameters. By clicking on the Response tab you can find the corresponding response
+in JSON format
+
+
+test urls:
+https://api.kvk.nl/api/v2/testsearch/companies?q=69599084
+https://api.kvk.nl/api/v2/testprofile/companies?q=test
