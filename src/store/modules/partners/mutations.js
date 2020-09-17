@@ -20,12 +20,6 @@ export default {
         //state.partner = data;
         Vue.set(state, "partner", data);
 
-        //console.log(JSON.stringify(data));
-        //state.partner.kvknummer = data.kvknummer;
-        // state.partner.bedrijf = data.bedrijf;
-        // state.partner.straat = data.straat;
-
-
     }
     //   [SET_MAILBODY](state, data) {
     //     state.mailbody = data;
